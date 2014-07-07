@@ -16,7 +16,6 @@ Gem::Specification.new do |s|
 
   s.add_dependency              'jsonpath', '>= 0.1.2'
   s.add_dependency              'cucumber',  '>= 1.2.1'
-  s.add_dependency              'rspec',  '>= 2.12.0'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
